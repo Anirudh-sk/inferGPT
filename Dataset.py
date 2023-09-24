@@ -9,7 +9,7 @@ def download_images(query, num_images=10):
         print(f"Error downloading images for {query}: {str(e)}")
 
 def main():
-    plants = ["tulasi", "alovera"]
+    plants = ["Aizoaceae", "Arecaceae"]
     for plant in plants:
         download_images(plant)
 
